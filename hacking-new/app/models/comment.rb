@@ -1,3 +1,4 @@
+# Crée une relation avec users, links et comments 
 class Comment < ApplicationRecord
   belongs_to :user
   belongs_to :link, optional: true
