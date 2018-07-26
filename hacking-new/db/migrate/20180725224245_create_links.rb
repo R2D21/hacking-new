@@ -1,3 +1,5 @@
+# Crée une table links et une relation avec users
+
 class CreateLinks < ActiveRecord::Migration[5.2]
   def change
     create_table :links do |t|
